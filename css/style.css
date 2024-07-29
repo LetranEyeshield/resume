@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 14px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000000;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid #5cb9f2;
+     background: #8a8987;
+}
+
+header{
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    border-bottom: 2px solid #dff7f7;
+    padding: 0 0 30px 0;
+}
+
+.header_left{
+    width: 50%;
+    align-self: flex-start;
+    margin: 10px 0 0 0;
+}
+
+.header_right{
+    width: 50%;
+    border-left: 5px solid #5cb9f2;
+    border-bottom: 5px solid #5cb9f2;
+    border-radius: 5%;
+    padding: 0 0 20px 50px;
+}
+
+.above_line{
+    font-weight: 700;
+    font-size: 25px;
+    color: #dff7f7;
+    margin: 0 0 10px 0;
+}
+
+.header_left img{
+    border: 5px solid #5cb9f2;
+    border-radius: 15%;
+    margin: 0 0 0 30px;
+}
+
+.header_left h3{
+    font-size: 25px;
+    line-height: 40px;
+    margin: 0 0 0 0;
+}
+
+.header_left h4{
+    background: #5cb9f2;
+    padding: 10px 15px;
+    /* text-wrap: nowrap; */
+    width: 62%;
+    line-height: 20px;
+}
+
+.header_right_upper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 0 0 0;
+}
+
+.profile{
+    width: 7%;
+}
+
+.header_right_upper h2{
+    margin: 0 0 0 12px;
+}
+
+.header_right p{
+    margin: 20px 0 0 0;
+    line-height: 30px;
+    text-indent: 50px;
+}
+
+.HRL_Upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 20px 0 0 0;
+}
+
+.email{
+    width: 7%;
+    height: fit-content;
+}
+
+.email_link{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 8px 0 0 5px;
+}
+
+.mobile{
+    width: 7%;
+    height: fit-content;
+    margin: 0 0 0 50px;
+}
+
+.HRL_Upper p{
+    line-height: 0;
+    text-indent: 0;
+    margin: 17px 0 0 5px;
+}
+
+.HRL_Lower{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 20px 0 0 0;
+}
+
+.location{
+    width: 8%;
+    height: fit-content;
+}
+
+.HRL_Lower p{
+    line-height: unset;
+    text-indent: unset;
+    margin: 7px 0 0 5px;
+}
+
+.facebook{
+    width: 27px;
+    height: fit-content;
+    margin: 0 7px 0 -10px;
+}
+
+.fb_link{
+    color: #ffffff;
+    text-decoration: underline;
+    text-wrap: nowrap;
+    margin: 5px 0 0 0;
+}
+
+.content{
+    width: 100%;
+}
+
+.skills_exp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.skills_content{
+    margin: 20px 0 0 0;
+    border-right: 5px solid #5cb9f2;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    width: 45%;
+}
+
+.skills_header{
+    display: flex;
+    flex-direction: row;
+}
+
+.skills{
+    width: 6%;
+    margin: 0 0 0 60px;
+}
+
+.skills_header h3{
+    margin: 0 0 0 15px;
+}
+
+.skills_ul{
+    margin: 20px 0 0 90px;
+}
+
+.skills_ul li{
+    padding: 5px 0;
+    font-size: 16px;
+}
+.educ_content{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0 0 0;
+}
+.educ_content_header{
+    display: flex;
+    flex-direction: row;
+}
+.educ{
+    width: 7%;
+    margin: 0 0 0 60px;
+}
+.educ_content_header h3{
+    margin: 5px 0 0 10px;
+}
+.educ_ul{
+    margin: 10px 0 0 90px;
+}
+.educ_ul li{
+    line-height: 22px;
+}
+.educ_ul li strong{
+    text-wrap: nowrap;
+    font-size: 14px;
+}
+.exp_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    margin: 20px 0 0 0;
+}
+.exp_header{
+    display: flex;
+    flex-direction: row;
+}
+.exp{
+    width: 6%;
+}
+
+.exp_header h3{
+    margin: 5px 0 0 15px;
+}
+
+.exp_content ul{
+    margin: 20px 0 0 50px;
+}
+.exp_content ul li{
+    line-height: 22px;
+    margin: 0 0 15px 0;
+}
+
+/*slider div*/
+.slider_div{
+    width: 90%;
+    /* background-image: url("../images/ID.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 150px 0; */
+    margin: 20px auto 10px auto;
+    border: 3px solid #dff7f7;
+    padding: 10px;
+}
+
+/*slider carousel*/
+.slick-slide img {
+    width: 100%;
+    /* height: auto; */
+    height: 550px;
+}
+.carousel-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer{
+    text-align: center;
+    padding: 5px 0 20px 0;
+}
