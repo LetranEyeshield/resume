@@ -84,6 +84,10 @@ header{
     line-height: 20px;
 }
 
+.header_left h4 span{
+    display: block;
+}
+
 .header_right_upper{
     display: flex;
     flex-direction: row;
